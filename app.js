@@ -36,87 +36,119 @@ add 1 in before decimal number
 // let num = 1.09;
 // console.log(Math.ceil(num))
 
+/*==================================== Question No 6 =========================================
+Math.floor() 
+it only remove deciaml , it does not add one more in nearest integer
+======================================= Answer =====================================*/
+// let num = 23.32424;
+// console.log(Math.floor(num));
+
+/*==================================== Question No 7 =========================================
+Math.max()
+it is find to find the maximum values
+======================================= Answer =====================================*/
+// console.log(Math.max(4,2,55,43))
+// console.log(Math.min(3,1,22,32))
+
+/*==================================== Question No 8 =========================================
+Math.random() 
+it give us after decimal greater than zero and lesss than 1 16 numbers that are different on each refresh
+======================================= Answer =====================================*/
+
+// let random = Math.floor((Math.random()*2)+1);
+// console.log(random)
+
+ /* var friend = ['red','blue','black','green'];
+ let radom = Math.floor(Math.random()* friend.length);
+ console.log(radom)
+ console.log(friend[radom])
+ let div = document.getElementById('div')
+
+ let checking = setInterval(() => {
+    var friend = ['red','blue','black','green'];
+ let radom = Math.floor(Math.random()* friend.length);
+ console.log(friend[radom])
+ div.style.background = friend[radom]
+    if(div.style.background == 'red'){
+        clearInterval(checking)
+    }
+ }, 1000); */
+
+
+
+/*==================================== Question No 9 =========================================
+Math.round practice
+======================================= Answer =====================================*/
+/* let scores = [89.1, 72.5, 94.9, 60.3];
+let round = []
+for(let i = 0;i < scores.length;i++){
+    console.log(scores[i])
+    round.push(Math.round(scores[i]))
+}
+
+console.log(round) */
+
+
+
+
+/*==================================== Question No 10 =========================================
+changin case .toLowerCase() and .toUpperCase()
+======================================= Answer =====================================*/
+/* let name = 'AzIzuLLah';
+console.log(name);
+console.log(name.toLowerCase());
+console.log(name.toUpperCase())
+
+ */
+
+
+/*==================================== Question No 11 =========================================
+find the length of lowercase and upper case letters in string
+======================================= Answer =====================================*/
+/* let name = 'AziZullaH';
+console.log(name)
+let lower = [];
+let upper = []
+for(let i = 0;i <name.length;i++){
+    // console.log(name[i])
+    if(name[i] == name[i].toLowerCase()){
+        lower.push(name[i])
+    }
+    else{
+        upper.push(name[i])
+    }
+}
+console.log(lower);
+console.log(upper)
+console.log('the length of uppercase letters is ',upper.length)
+console.log('the length of lowercase letters is ',lower.length)
+ */
+
+/*==================================== Question No 12 =========================================
+find the length of uppercase and lowercase words in string
+======================================= Answer =====================================*/
+/* let str = 'I am GOING to School daily';
+   str = str.split(' ')
+let need = str.filter((word)=>{
+    return word == word.toLowerCase()
+})
+console.log(need)
+let total = str.length;
+let lower = need.length;
+let upper = total - lower;
+console.log(lower);
+console.log(upper)
+ */
+
+
+
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
-======================================= Answer =====================================
-
-==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
+let str = 'javascript';
+console.log(str.charAt(2))
+console.log(str[3])
+console.log(str.charAt(str.length-1))
 
 
 /*==================================== Question No 1 =========================================
