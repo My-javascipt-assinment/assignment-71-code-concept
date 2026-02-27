@@ -142,30 +142,86 @@ console.log(upper)
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 13 =========================================
+charAt
 ======================================= Answer =====================================*/
-let str = 'javascript';
+/* let str = 'javascript';
 console.log(str.charAt(2))
 console.log(str[3])
 console.log(str.charAt(str.length-1))
 
-
-/*==================================== Question No 1 =========================================
-
+ */
+/*==================================== Question No 14 =========================================
+local, global and lexical scope
 ======================================= Answer =====================================*/
 
+/* function scoping(){
+    let num = 1;
+    function child(){
+        num++;
+        console.log(num)
+    }
+    return child;
+}
+let ans = scoping();
+ans();
+ans()
+ */
 
+// let a = 1;
 
+// function parent(){
+//     let b = 2;
+//     function child(){
+//         let c  = 3;
+//         console.log(a);
+//         console.log(b)
+//     }
+//     child()
+//     console.log(a);
+//     console.log(b);
+//     // console.log(c)
+// }
+// parent()
+// console.log(a);
+// // console.log(b);
+// // console.log(c)
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 15 =========================================
+bank account with closure function
 ======================================= Answer =====================================*/
+ /* function bankAccount(name){
+    console.log(`${name} has openend an account`)
+    let balance = 0;
+    // deposit function
+    const deposit = (amount)=>{
+        balance = balance + amount
+console.log(`${name} deposited an amount of  ${amount} rupees in his account`)
+    }
+    // getBalance function
+    const getBalance = ()=>{
+        console.log(`your balance is ${balance}`)
+    }
+    // withDraw function 
+    const withDraw = (amount)=>{
+        if(amount > balance){
+            console.log(`insufficient balance`)
+        }
+        else {
+             balance = balance - amount
+        }
+    }
+    return { deposit,
+        getBalance,
+        withDraw
 
-
+    }
+ }
+let ans = bankAccount('Ilyas')
+ans.deposit(100);
+ans.withDraw(40)
+ans.getBalance()
+ */
 
 
 
