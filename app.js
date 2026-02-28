@@ -226,36 +226,53 @@ ans.getBalance()
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 16 =========================================
++, Number, parseFloat( ) and parseInt( ) are used to convert string to number, 
+parseInt() convert string to number but it removes after . all values if number is decimal
+======================================= Answer =====================================*/
+/* let num = '123.978';
+console.log(num,typeof num)
+// let n = +(num);
+// let n = Number(num)
+// let n = parseFloat(num)
+let n = parseInt(num)
+console.log(n, typeof n)
+
+ */
+
+
+
+/*==================================== Question No 17 =========================================
+number to string converting
+.toString(), String and + ''
+======================================= Answer =====================================*/
+/* let n = 12.34;
+console.log(n,typeof n)
+// let str = n.toString();
+// let str = n + '';
+let str = String(n)
+console.log(str,typeof str)
+ */
+
+
+
+/*==================================== Question No 18 =========================================
+.toFixed()
+we can set numbers after decimal using this method, it rounds numbers also nearest 
+integer
+======================================= Answer =====================================*/
+/* let num = 21.536;
+console.log(num);
+console.log(num.toFixed(0))
+ */
+
+
+
+/*==================================== Question No 19 =========================================
 
 ======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
+const date = new Date();
+console.log(date.getMinutes())
 
 
 
