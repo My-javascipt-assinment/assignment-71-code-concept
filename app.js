@@ -696,64 +696,131 @@ btn.addEventListener('click',store) */
 /*==================================== Question No 40 =========================================
 show object data on dom
 ======================================= Answer =====================================*/
-/* let person = {
-    name : 'Ahmed',
-    age : 22,
-    city : 'karachi',
-    designation  : 'developer'
-}
+// /* let person = {
+//     name : 'Ahmed',
+//     age : 22,
+//     city : 'karachi',
+//     designation  : 'developer'
+// }
 
-function showData(){
-    let ul = document.getElementById('ul');
-    ul.innerHTML = '';
-    for(let key in person){
-        let li = document.createElement('li');
-        li.innerText = `${key} : ${person[key]}`;
-        ul.appendChild(li)
+// function showData(){
+//     let ul = document.getElementById('ul');
+//     ul.innerHTML = '';
+//     for(let key in person){
+//         let li = document.createElement('li');
+//         li.innerText = `${key} : ${person[key]}`;
+//         ul.appendChild(li)
+//     }
+// }
+
+// let btn = document.getElementById('btn');
+// btn.addEventListener('mouseover',showData)
+ 
+/*==================================== Question No 41 =========================================
+sort()
+======================================= Answer =====================================*/
+// let num = [11,20,3,111,32,200,40];
+// console.log(num.sort())
+
+// let str = ['guava','grapes','apple','orange','banana'];
+// console.log(str);
+// console.log(str.sort())
+
+
+/*==================================== Question No 42 =========================================
+.startWith();
+
+======================================= Answer =====================================*/
+// let str = 'hello';
+// console.log(str.startsWith('y'));
+// console.log(str.endsWith('o'))
+
+
+
+
+/*==================================== Question No 43 =========================================
+filter()
+filter is an array method it take a call back function in its paramerter , in callback 
+function parameter we have to pass two parameter item and index and in {} we write 
+required functionality
+======================================= Answer =====================================*/
+// let fruits = ['banana','mango','grapes','banana','apple'];
+// let ans = fruits.filter((item)=>{
+//     return item == 'banana'
+// })
+// console.log(ans)
+
+
+
+/*==================================== Question No 44 =========================================
+
+======================================= Answer =====================================*/
+/* let input = prompt('enter designation')
+let data = [
+    {
+        name : 'Aziz',
+        designation : 'developer'
+    },
+    {
+        name : 'Iqbal',
+        designation : 'teacher'
+    },
+    {
+        name : 'Younis',
+        designation : 'designer'
+    },
+    {
+        name : 'Bilal',
+        designation : 'soldier'
+    },
+    {
+        name : 'Muzamil',
+        designation : 'designer'
+    },
+]
+
+let ans = data.filter((item)=>{
+    return item?.designation?.toLocaleLowerCase() === input?.toLocaleLowerCase()
+})
+
+console.log(ans) */
+
+
+/*==================================== Question No 1 =========================================
+
+======================================= Answer =====================================*/
+/* let input = prompt('enter designation')
+let data = [
+    {
+        name : 'Aziz',
+        designation : 'developer'
+    },
+    {
+        name : 'Iqbal',
+        designation : 'teacher'
+    },
+    {
+        name : 'Younis',
+        designation : 'designer'
+    },
+    {
+        name : 'Bilal',
+        designation : 'soldier'
+    },
+    {
+        name : 'Muzamil',
+        designation : 'designer'
+    },
+]
+let ans = []
+
+for(let i = 0;i < data.length;i++){
+    console.log(data[i])
+    if(data[i]?.designation?.toLocaleLowerCase() === input?.toLocaleLowerCase()){
+        ans.push(data[i])
     }
 }
-
-let btn = document.getElementById('btn');
-btn.addEventListener('mouseover',showData)
- */
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
+console.log(ans) */
 
 
 
